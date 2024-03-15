@@ -11,17 +11,17 @@ This project is a web scraping application built with React for the client-side 
 
 ---
 
-##Getting Started
+## Getting Started
 To get started with this application, follow the steps below:
 
-##Client Setup:
+## Client Setup:
 
 Navigate to the client directory: cd client
 Create a new React application: npx create-react-app .
 Install required dependencies: npm install axios cheerio
 Build the React application: npm run build
 
-##Server Setup:
+## Server Setup:
 
 Navigate to the server directory: cd ../server
 Initialize a new Node.js project: npm init -y
@@ -29,11 +29,13 @@ Install required dependencies: npm install express axios cheerio
 Start the Node.js/Express server: node app.js
 
 
-##Running the Application
+## Running the Application
 
 Once the server is running, you can access the application in your web browser at [http://localhost:5000](http://localhost:5000).
 
-##Notes
+---
+
+## Notes
 
 - This application fetches data from a website using Axios and parses it using Cheerio.
 - The React client-side application is served by the Node.js/Express server.
