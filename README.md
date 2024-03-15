@@ -16,17 +16,46 @@ To get started with this application, follow the steps below:
 
 ## Client Setup:
 
-Navigate to the client directory: cd client
-Create a new React application: npx create-react-app .
-Install required dependencies: npm install axios cheerio
-Build the React application: npm run build
+1. Navigate to the client directory:
+    ```bash
+    cd client
+    ```
+
+2. Create a new React application:
+    ```bash
+    npx create-react-app .
+    ```
+
+3. Install required dependencies:
+    ```bash
+    npm install axios cheerio
+    ```
+
+4. Build the React application:
+    ```bash
+    npm run build
+    ```
 
 ## Server Setup:
 
-Navigate to the server directory: cd ../server
-Initialize a new Node.js project: npm init -y
-Install required dependencies: npm install express axios cheerio
-Start the Node.js/Express server: node app.js
+1. Navigate to the server directory:
+    ```bash
+    cd ../server
+    ```
+
+2. Initialize a new Node.js project:
+    ```bash
+    npm init -y
+    ```
+
+3. Install required dependencies:
+    ```bash
+    npm install express axios cheerio
+    ```
+
+4. Start the Node.js/Express server:
+    ```bash
+    node app.js
 
 
 ## Running the Application
